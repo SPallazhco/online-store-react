@@ -1,11 +1,13 @@
-
+import Sidebar from './components/shared/Sidebar'
 
 function App() {
 
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+      <div>
+        <Sidebar />
+      </div>
+    </>
   )
 }
 
