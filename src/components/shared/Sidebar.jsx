@@ -33,19 +33,21 @@ const styles = {
         height: "100%"
       },
       ul:{
-        backgroundColor: "grey",
+        //backgroundColor: "#1F1D2B",
         listStyle: "none",
-        padding: 4
+        paddingLeft: 16
       },
       barIconsLi: {
-        padding: 4,
-        backgroundColor: "black"
+        //padding: 4,
+        //backgroundColor: "black",
       },
       icons: {
         backgroundColor: "yellow", 
         display: "block", 
         textAlign: "center",
-        paddingTop: 6
+        paddingTop: 6,
+        borderTopLeftRadius: 6,
+        borderBottomLeftRadius: 6,
       },
       imagesIcons: {
         height: 40,
